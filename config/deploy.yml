@@ -51,8 +51,8 @@ ssh:
 builder:
   remote:
     arch: amd64
-    host: ssh://rocky@192.168.10.110
-#   args:
+    host: ssh://rocky@192.168.10.109
+ #   args:
 #     RUBY_VERSION: 3.2.0
 #   secrets:
 #     - GITHUB_TOKEN
