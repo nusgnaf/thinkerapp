@@ -74,7 +74,6 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-#  url: postgres://fang:fcb99ae5@g.pigsty:5432/thinker_production
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
